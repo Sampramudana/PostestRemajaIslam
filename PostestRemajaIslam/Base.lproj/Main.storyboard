@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gfa-lS-ifU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Cell Table View Controller-->
+        <scene sceneID="MHc-tt-58u">
+            <objects>
+                <tableViewController id="gfa-lS-ifU" customClass="CustomCellTableViewController" customModule="PostestRemajaIslam" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ql1-Fr-L74">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="CYa-9V-4pi">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.90025001764297485" green="0.046122200787067413" blue="0.009984026663005352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="barTintColor" red="0.90025001760000001" green="0.046122200789999998" blue="0.0099840266630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <textAttributes key="titleTextAttributes">
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </textAttributes>
+                            <textAttributes key="largeTitleTextAttributes">
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </textAttributes>
+                            <items>
+                                <navigationItem title="Remaja Islam" id="a4n-es-r6A"/>
+                            </items>
+                        </navigationBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellBerita" rowHeight="259" id="LNG-ip-Sk5" customClass="BeritaTableViewCell" customModule="PostestRemajaIslam" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="375" height="259"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LNG-ip-Sk5" id="Svb-sm-r0n">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="258.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artikel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p90-kv-TXC">
+                                            <rect key="frame" x="8" y="136" width="32" height="12"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="12" id="Sft-JI-IKh"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="c0k-S7-jOC"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pacaran Ternyata Penuh Dusta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwX-mR-cXF">
+                                            <rect key="frame" x="8" y="148" width="234" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="234" id="Zpg-Jm-r9m"/>
+                                                <constraint firstAttribute="height" constant="21" id="n4o-uE-gZ4"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minggu, 12 September 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xg1-CO-Wfi">
+                                            <rect key="frame" x="8" y="169" width="159" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="159" id="8g7-Vj-4gi"/>
+                                                <constraint firstAttribute="height" constant="14.5" id="Ms4-MT-9IX"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZBX-5u-b90">
+                                            <rect key="frame" x="8" y="8" width="359" height="120"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="120" id="570-pV-4Yh"/>
+                                                <constraint firstAttribute="width" constant="359" id="QpK-BG-2yy"/>
+                                                <constraint firstAttribute="width" secondItem="ZBX-5u-b90" secondAttribute="height" multiplier="359:120" id="Yjl-ME-0Qb"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Isi berita" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1YI-Zf-FqH">
+                                            <rect key="frame" x="8" y="187" width="49" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="64" id="bDA-5L-Jbi"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="49" id="xED-X6-hwa"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="1YI-Zf-FqH" secondAttribute="bottom" constant="-0.5" id="0rt-B7-Uxj"/>
+                                        <constraint firstItem="1YI-Zf-FqH" firstAttribute="leading" secondItem="Svb-sm-r0n" secondAttribute="leadingMargin" id="1qr-P2-7jH"/>
+                                        <constraint firstItem="xg1-CO-Wfi" firstAttribute="leading" secondItem="Svb-sm-r0n" secondAttribute="leadingMargin" id="2Ej-tJ-HeQ"/>
+                                        <constraint firstItem="ZBX-5u-b90" firstAttribute="top" secondItem="Svb-sm-r0n" secondAttribute="topMargin" id="5iz-Jk-wUG"/>
+                                        <constraint firstItem="ZBX-5u-b90" firstAttribute="leading" secondItem="Svb-sm-r0n" secondAttribute="leadingMargin" id="86e-eP-GSX"/>
+                                        <constraint firstItem="ZBX-5u-b90" firstAttribute="trailing" secondItem="Svb-sm-r0n" secondAttribute="trailingMargin" id="Azd-OG-ZrY"/>
+                                        <constraint firstItem="p90-kv-TXC" firstAttribute="top" secondItem="ZBX-5u-b90" secondAttribute="bottom" constant="8" id="Bpz-KH-wSz"/>
+                                        <constraint firstItem="p90-kv-TXC" firstAttribute="leading" secondItem="Svb-sm-r0n" secondAttribute="leadingMargin" id="Ch3-4g-Zfc"/>
+                                        <constraint firstItem="vwX-mR-cXF" firstAttribute="leading" secondItem="Svb-sm-r0n" secondAttribute="leadingMargin" id="E7A-En-w2K"/>
+                                        <constraint firstItem="p90-kv-TXC" firstAttribute="top" secondItem="ZBX-5u-b90" secondAttribute="bottom" constant="8" id="Fb2-fQ-mbk"/>
+                                        <constraint firstItem="1YI-Zf-FqH" firstAttribute="top" secondItem="xg1-CO-Wfi" secondAttribute="bottom" constant="3.5" id="HfU-F3-ZrA"/>
+                                        <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="p90-kv-TXC" secondAttribute="trailing" id="LNS-qa-rQb"/>
+                                        <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="1YI-Zf-FqH" secondAttribute="trailing" id="Olv-6v-rgY"/>
+                                        <constraint firstItem="vwX-mR-cXF" firstAttribute="top" secondItem="p90-kv-TXC" secondAttribute="bottom" id="Oov-R3-TXx"/>
+                                        <constraint firstItem="xg1-CO-Wfi" firstAttribute="top" secondItem="vwX-mR-cXF" secondAttribute="bottom" id="Qap-lD-qxy"/>
+                                        <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="xg1-CO-Wfi" secondAttribute="trailing" id="UAi-ea-Z2P"/>
+                                        <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="vwX-mR-cXF" secondAttribute="trailing" id="UQq-s6-tnN"/>
+                                        <constraint firstItem="xg1-CO-Wfi" firstAttribute="top" secondItem="vwX-mR-cXF" secondAttribute="bottom" id="dMi-hy-hgK"/>
+                                        <constraint firstItem="vwX-mR-cXF" firstAttribute="top" secondItem="p90-kv-TXC" secondAttribute="bottom" id="nXd-Z8-dal"/>
+                                        <constraint firstItem="1YI-Zf-FqH" firstAttribute="top" secondItem="xg1-CO-Wfi" secondAttribute="bottom" constant="3.5" id="qvj-24-0lh"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="gambarBerita" destination="ZBX-5u-b90" id="7uY-dU-MDy"/>
+                                    <outlet property="labelIsi" destination="1YI-Zf-FqH" id="7r2-jp-Ax8"/>
+                                    <outlet property="labelJudul" destination="vwX-mR-cXF" id="a5B-Tx-5SK"/>
+                                    <outlet property="labelKategori" destination="p90-kv-TXC" id="WVB-cs-IB9"/>
+                                    <outlet property="labelTanggal" destination="xg1-CO-Wfi" id="Exg-qS-VvB"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gfa-lS-ifU" id="xE4-Ye-B8j"/>
+                            <outlet property="delegate" destination="gfa-lS-ifU" id="pn4-gt-owa"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="vdU-uP-MtN"/>
+                    <connections>
+                        <segue destination="c8C-gx-L95" kind="show" identifier="segue" id="AyL-Iu-b3F"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="utV-OU-3UM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="133.5832083958021"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="DLi-zo-OMD">
+            <objects>
+                <viewController id="c8C-gx-L95" customClass="DetailViewController" customModule="PostestRemajaIslam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gpP-Ux-GfG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QQu-lw-InT">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90025001760000001" green="0.046122200789999998" blue="0.0099840266630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.90025001760000001" green="0.046122200789999998" blue="0.0099840266630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Detai Artikel" id="udE-Vr-qIG">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="TaD-20-kDC">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <segue destination="gfa-lS-ifU" kind="modal" id="reX-Ls-kSB"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pacaran Ternyata Penuh Dusta" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVD-QQ-00g">
+                                <rect key="frame" x="70" y="112" width="234" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xTX-TI-gPB">
+                                <rect key="frame" x="67" y="154" width="240" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Isi berita" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjU-Tc-4Qh">
+                                <rect key="frame" x="16" y="366" width="343" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="mos-UP-f9E"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgPreview" destination="xTX-TI-gPB" id="adJ-me-10i"/>
+                        <outlet property="labelIsi" destination="MjU-Tc-4Qh" id="q4l-3C-D7r"/>
+                        <outlet property="labelJudul" destination="dVD-QQ-00g" id="llt-ep-9JO"/>
+                        <segue destination="gfa-lS-ifU" kind="modal" identifier="passDataDetail" id="yhp-OW-nZU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K02-hC-GiF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1984.8" y="91.304347826086968"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="yhp-OW-nZU"/>
+    </inferredMetricsTieBreakers>
+</document>

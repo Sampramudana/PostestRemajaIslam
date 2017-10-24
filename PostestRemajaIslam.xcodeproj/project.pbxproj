@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2BD8891F9DE8730015FB15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BD8881F9DE8730015FB15 /* AppDelegate.swift */; };
+		FA2BD88B1F9DE8730015FB15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BD88A1F9DE8730015FB15 /* ViewController.swift */; };
+		FA2BD88E1F9DE8730015FB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2BD88C1F9DE8730015FB15 /* Main.storyboard */; };
+		FA2BD8901F9DE8730015FB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2BD88F1F9DE8730015FB15 /* Assets.xcassets */; };
+		FA2BD8931F9DE8730015FB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2BD8911F9DE8730015FB15 /* LaunchScreen.storyboard */; };
+		FA2BD89E1F9DE8740015FB15 /* PostestRemajaIslamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BD89D1F9DE8740015FB15 /* PostestRemajaIslamTests.swift */; };
+		FA2BD8A91F9DE8740015FB15 /* PostestRemajaIslamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BD8A81F9DE8740015FB15 /* PostestRemajaIslamUITests.swift */; };
+		FA2BD8B71F9DEA4D0015FB15 /* CustomCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BD8B61F9DEA4D0015FB15 /* CustomCellTableViewController.swift */; };
+		FA2BD8B91F9DEA5F0015FB15 /* BeritaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BD8B81F9DEA5F0015FB15 /* BeritaTableViewCell.swift */; };
+		FA4C47E01F9ED8BE00DDA4FC /* Yang Jarang Diketahui dari Puasa Asyura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4C47DB1F9ED8BD00DDA4FC /* Yang Jarang Diketahui dari Puasa Asyura.jpg */; };
+		FA4C47E11F9ED8BE00DDA4FC /* Doa pada Orang Tua Kita Bagaimana?.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4C47DC1F9ED8BD00DDA4FC /* Doa pada Orang Tua Kita Bagaimana?.jpg */; };
+		FA4C47E21F9ED8BE00DDA4FC /* Di Masjid Hatiku Terkait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4C47DD1F9ED8BD00DDA4FC /* Di Masjid Hatiku Terkait.jpg */; };
+		FA4C47E31F9ED8BE00DDA4FC /* Masih Malas Bangun Shubuh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4C47DE1F9ED8BD00DDA4FC /* Masih Malas Bangun Shubuh.jpg */; };
+		FA4C47E41F9ED8BE00DDA4FC /* Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4C47DF1F9ED8BE00DDA4FC /* Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg */; };
+		FA4FB3B61F9E3998005FF4FE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FB3B51F9E3998005FF4FE /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2BD89A1F9DE8740015FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2BD87D1F9DE8730015FB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2BD8841F9DE8730015FB15;
+			remoteInfo = PostestRemajaIslam;
+		};
+		FA2BD8A51F9DE8740015FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2BD87D1F9DE8730015FB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2BD8841F9DE8730015FB15;
+			remoteInfo = PostestRemajaIslam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2BD8851F9DE8730015FB15 /* PostestRemajaIslam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostestRemajaIslam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2BD8881F9DE8730015FB15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA2BD88A1F9DE8730015FB15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA2BD88D1F9DE8730015FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2BD88F1F9DE8730015FB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2BD8921F9DE8730015FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA2BD8941F9DE8730015FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2BD8991F9DE8740015FB15 /* PostestRemajaIslamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostestRemajaIslamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2BD89D1F9DE8740015FB15 /* PostestRemajaIslamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostestRemajaIslamTests.swift; sourceTree = "<group>"; };
+		FA2BD89F1F9DE8740015FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2BD8A41F9DE8740015FB15 /* PostestRemajaIslamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostestRemajaIslamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2BD8A81F9DE8740015FB15 /* PostestRemajaIslamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostestRemajaIslamUITests.swift; sourceTree = "<group>"; };
+		FA2BD8AA1F9DE8740015FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2BD8B61F9DEA4D0015FB15 /* CustomCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewController.swift; sourceTree = "<group>"; };
+		FA2BD8B81F9DEA5F0015FB15 /* BeritaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaTableViewCell.swift; sourceTree = "<group>"; };
+		FA4C47DB1F9ED8BD00DDA4FC /* Yang Jarang Diketahui dari Puasa Asyura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yang Jarang Diketahui dari Puasa Asyura.jpg"; sourceTree = "<group>"; };
+		FA4C47DC1F9ED8BD00DDA4FC /* Doa pada Orang Tua Kita Bagaimana?.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Doa pada Orang Tua Kita Bagaimana?.jpg"; sourceTree = "<group>"; };
+		FA4C47DD1F9ED8BD00DDA4FC /* Di Masjid Hatiku Terkait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Di Masjid Hatiku Terkait.jpg"; sourceTree = "<group>"; };
+		FA4C47DE1F9ED8BD00DDA4FC /* Masih Malas Bangun Shubuh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masih Malas Bangun Shubuh.jpg"; sourceTree = "<group>"; };
+		FA4C47DF1F9ED8BE00DDA4FC /* Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg"; sourceTree = "<group>"; };
+		FA4FB3B51F9E3998005FF4FE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2BD8821F9DE8730015FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BD8961F9DE8740015FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BD8A11F9DE8740015FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2BD87C1F9DE8730015FB15 = {
+			isa = PBXGroup;
+			children = (
+				FA2BD8871F9DE8730015FB15 /* PostestRemajaIslam */,
+				FA2BD89C1F9DE8740015FB15 /* PostestRemajaIslamTests */,
+				FA2BD8A71F9DE8740015FB15 /* PostestRemajaIslamUITests */,
+				FA2BD8861F9DE8730015FB15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2BD8861F9DE8730015FB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BD8851F9DE8730015FB15 /* PostestRemajaIslam.app */,
+				FA2BD8991F9DE8740015FB15 /* PostestRemajaIslamTests.xctest */,
+				FA2BD8A41F9DE8740015FB15 /* PostestRemajaIslamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2BD8871F9DE8730015FB15 /* PostestRemajaIslam */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BD8881F9DE8730015FB15 /* AppDelegate.swift */,
+				FA2BD88A1F9DE8730015FB15 /* ViewController.swift */,
+				FA2BD8B61F9DEA4D0015FB15 /* CustomCellTableViewController.swift */,
+				FA4FB3B51F9E3998005FF4FE /* DetailViewController.swift */,
+				FA2BD8B81F9DEA5F0015FB15 /* BeritaTableViewCell.swift */,
+				FA4C47DD1F9ED8BD00DDA4FC /* Di Masjid Hatiku Terkait.jpg */,
+				FA4C47DC1F9ED8BD00DDA4FC /* Doa pada Orang Tua Kita Bagaimana?.jpg */,
+				FA4C47DE1F9ED8BD00DDA4FC /* Masih Malas Bangun Shubuh.jpg */,
+				FA4C47DF1F9ED8BE00DDA4FC /* Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg */,
+				FA4C47DB1F9ED8BD00DDA4FC /* Yang Jarang Diketahui dari Puasa Asyura.jpg */,
+				FA2BD88C1F9DE8730015FB15 /* Main.storyboard */,
+				FA2BD88F1F9DE8730015FB15 /* Assets.xcassets */,
+				FA2BD8911F9DE8730015FB15 /* LaunchScreen.storyboard */,
+				FA2BD8941F9DE8730015FB15 /* Info.plist */,
+			);
+			path = PostestRemajaIslam;
+			sourceTree = "<group>";
+		};
+		FA2BD89C1F9DE8740015FB15 /* PostestRemajaIslamTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BD89D1F9DE8740015FB15 /* PostestRemajaIslamTests.swift */,
+				FA2BD89F1F9DE8740015FB15 /* Info.plist */,
+			);
+			path = PostestRemajaIslamTests;
+			sourceTree = "<group>";
+		};
+		FA2BD8A71F9DE8740015FB15 /* PostestRemajaIslamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BD8A81F9DE8740015FB15 /* PostestRemajaIslamUITests.swift */,
+				FA2BD8AA1F9DE8740015FB15 /* Info.plist */,
+			);
+			path = PostestRemajaIslamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2BD8841F9DE8730015FB15 /* PostestRemajaIslam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2BD8AD1F9DE8740015FB15 /* Build configuration list for PBXNativeTarget "PostestRemajaIslam" */;
+			buildPhases = (
+				FA2BD8811F9DE8730015FB15 /* Sources */,
+				FA2BD8821F9DE8730015FB15 /* Frameworks */,
+				FA2BD8831F9DE8730015FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostestRemajaIslam;
+			productName = PostestRemajaIslam;
+			productReference = FA2BD8851F9DE8730015FB15 /* PostestRemajaIslam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2BD8981F9DE8740015FB15 /* PostestRemajaIslamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2BD8B01F9DE8740015FB15 /* Build configuration list for PBXNativeTarget "PostestRemajaIslamTests" */;
+			buildPhases = (
+				FA2BD8951F9DE8740015FB15 /* Sources */,
+				FA2BD8961F9DE8740015FB15 /* Frameworks */,
+				FA2BD8971F9DE8740015FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2BD89B1F9DE8740015FB15 /* PBXTargetDependency */,
+			);
+			name = PostestRemajaIslamTests;
+			productName = PostestRemajaIslamTests;
+			productReference = FA2BD8991F9DE8740015FB15 /* PostestRemajaIslamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2BD8A31F9DE8740015FB15 /* PostestRemajaIslamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2BD8B31F9DE8740015FB15 /* Build configuration list for PBXNativeTarget "PostestRemajaIslamUITests" */;
+			buildPhases = (
+				FA2BD8A01F9DE8740015FB15 /* Sources */,
+				FA2BD8A11F9DE8740015FB15 /* Frameworks */,
+				FA2BD8A21F9DE8740015FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2BD8A61F9DE8740015FB15 /* PBXTargetDependency */,
+			);
+			name = PostestRemajaIslamUITests;
+			productName = PostestRemajaIslamUITests;
+			productReference = FA2BD8A41F9DE8740015FB15 /* PostestRemajaIslamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2BD87D1F9DE8730015FB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sam Pramudana";
+				TargetAttributes = {
+					FA2BD8841F9DE8730015FB15 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					FA2BD8981F9DE8740015FB15 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2BD8841F9DE8730015FB15;
+					};
+					FA2BD8A31F9DE8740015FB15 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2BD8841F9DE8730015FB15;
+					};
+				};
+			};
+			buildConfigurationList = FA2BD8801F9DE8730015FB15 /* Build configuration list for PBXProject "PostestRemajaIslam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2BD87C1F9DE8730015FB15;
+			productRefGroup = FA2BD8861F9DE8730015FB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2BD8841F9DE8730015FB15 /* PostestRemajaIslam */,
+				FA2BD8981F9DE8740015FB15 /* PostestRemajaIslamTests */,
+				FA2BD8A31F9DE8740015FB15 /* PostestRemajaIslamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2BD8831F9DE8730015FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BD8931F9DE8730015FB15 /* LaunchScreen.storyboard in Resources */,
+				FA4C47E31F9ED8BE00DDA4FC /* Masih Malas Bangun Shubuh.jpg in Resources */,
+				FA2BD8901F9DE8730015FB15 /* Assets.xcassets in Resources */,
+				FA2BD88E1F9DE8730015FB15 /* Main.storyboard in Resources */,
+				FA4C47E01F9ED8BE00DDA4FC /* Yang Jarang Diketahui dari Puasa Asyura.jpg in Resources */,
+				FA4C47E21F9ED8BE00DDA4FC /* Di Masjid Hatiku Terkait.jpg in Resources */,
+				FA4C47E11F9ED8BE00DDA4FC /* Doa pada Orang Tua Kita Bagaimana?.jpg in Resources */,
+				FA4C47E41F9ED8BE00DDA4FC /* Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BD8971F9DE8740015FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BD8A21F9DE8740015FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2BD8811F9DE8730015FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BD88B1F9DE8730015FB15 /* ViewController.swift in Sources */,
+				FA2BD8B71F9DEA4D0015FB15 /* CustomCellTableViewController.swift in Sources */,
+				FA4FB3B61F9E3998005FF4FE /* DetailViewController.swift in Sources */,
+				FA2BD8B91F9DEA5F0015FB15 /* BeritaTableViewCell.swift in Sources */,
+				FA2BD8891F9DE8730015FB15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BD8951F9DE8740015FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BD89E1F9DE8740015FB15 /* PostestRemajaIslamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2BD8A01F9DE8740015FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2BD8A91F9DE8740015FB15 /* PostestRemajaIslamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2BD89B1F9DE8740015FB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2BD8841F9DE8730015FB15 /* PostestRemajaIslam */;
+			targetProxy = FA2BD89A1F9DE8740015FB15 /* PBXContainerItemProxy */;
+		};
+		FA2BD8A61F9DE8740015FB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2BD8841F9DE8730015FB15 /* PostestRemajaIslam */;
+			targetProxy = FA2BD8A51F9DE8740015FB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2BD88C1F9DE8730015FB15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2BD88D1F9DE8730015FB15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2BD8911F9DE8730015FB15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2BD8921F9DE8730015FB15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2BD8AB1F9DE8740015FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA2BD8AC1F9DE8740015FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2BD8AE1F9DE8740015FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = PostestRemajaIslam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PostestRemajaIslam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2BD8AF1F9DE8740015FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = PostestRemajaIslam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PostestRemajaIslam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA2BD8B11F9DE8740015FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = PostestRemajaIslamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PostestRemajaIslamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostestRemajaIslam.app/PostestRemajaIslam";
+			};
+			name = Debug;
+		};
+		FA2BD8B21F9DE8740015FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = PostestRemajaIslamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PostestRemajaIslamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostestRemajaIslam.app/PostestRemajaIslam";
+			};
+			name = Release;
+		};
+		FA2BD8B41F9DE8740015FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = PostestRemajaIslamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PostestRemajaIslamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostestRemajaIslam;
+			};
+			name = Debug;
+		};
+		FA2BD8B51F9DE8740015FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = PostestRemajaIslamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PostestRemajaIslamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostestRemajaIslam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2BD8801F9DE8730015FB15 /* Build configuration list for PBXProject "PostestRemajaIslam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2BD8AB1F9DE8740015FB15 /* Debug */,
+				FA2BD8AC1F9DE8740015FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2BD8AD1F9DE8740015FB15 /* Build configuration list for PBXNativeTarget "PostestRemajaIslam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2BD8AE1F9DE8740015FB15 /* Debug */,
+				FA2BD8AF1F9DE8740015FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2BD8B01F9DE8740015FB15 /* Build configuration list for PBXNativeTarget "PostestRemajaIslamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2BD8B11F9DE8740015FB15 /* Debug */,
+				FA2BD8B21F9DE8740015FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2BD8B31F9DE8740015FB15 /* Build configuration list for PBXNativeTarget "PostestRemajaIslamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2BD8B41F9DE8740015FB15 /* Debug */,
+				FA2BD8B51F9DE8740015FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2BD87D1F9DE8730015FB15 /* Project object */;
+}
